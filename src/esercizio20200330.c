@@ -18,14 +18,14 @@ int main(int argc, char **argv) {
     long int n = 0;
     long int result = 0;
 
-    //------------------Esercizio A
+    //------------------Esercizio A------------------
     if(0){
       printf("Inserire un valore intero per Fibonacci: ");
       scanf("%ld", &n);
       result = recursiveFibonacci(n);
       printf("Fibonacci di (%ld) e' pari a: %ld", n, result);
     }
-    //------------------Esercizio B
+    //------------------Esercizio B------------------
      if(0){
      long int num = 6;
      unsigned long  *fibonacci_result ;
@@ -36,7 +36,7 @@ int main(int argc, char **argv) {
         printf("%ld ",fibonacci_result[i]);
       }
      }
-    //------------------Esercizio C
+    //------------------Esercizio C------------------
     if(1){
       unsigned long  *fibonacci_result ;
       unsigned long  *fibonacci_result_copy ;
